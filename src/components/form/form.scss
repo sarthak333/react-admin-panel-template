@@ -1,0 +1,62 @@
+@import "./../../global//gobal.scss";
+
+
+.input-underline {
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $grey;
+  transition: 0.2s ease-in-out;
+  &:focus {
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+  }
+}
+
+.input-item-container {
+  margin: 40px 0 40px 0;
+  box-sizing: border-box;
+
+  .label-holder {
+    position: absolute;
+    transition: 0.1s ease-in-out;
+
+    .label-container {
+      .label-text {
+        font-size: 1em;
+        font-family: "Muli";
+        font-weight: 100;
+        user-select: none;
+      }
+    }
+  }
+}
+
+.button-primary {
+  box-sizing: border-box;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1em;
+  background-color: $pseudo-black;
+  transition: 0.1s ease-in-out;
+  font-family: "Alegreya Sans";
+  border-radius: 1px;
+  box-shadow: 0px 5px 10px $pseudo-black-shadow;
+
+  &:hover {
+    background-color: #fff;
+    color: $pseudo-black;
+    outline: 1px solid $pseudo-black;
+  }
+
+  &:focus {
+    border: none;
+  }
+}
+
+.button-md {
+  width: 75px;
+  height: 38px;
+}

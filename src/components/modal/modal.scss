@@ -1,0 +1,13 @@
+@import "./../../global/gobal.scss";
+
+.modal-container {
+  height: auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 11px $pseudo-black;
+  border-radius: 10px;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+    min-height: 100% !important;
+    // height: auto !important;
+  }
+}

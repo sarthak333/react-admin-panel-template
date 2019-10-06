@@ -1,0 +1,36 @@
+.root-container {
+  background-image: url("./../../assets/images/login-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+}
+.info-container {
+  // background-image: url("./../../assets/images/black.jpg");
+  background-color: #1c1c1c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 0 5px #000;
+}
+.info-text-container {
+  // margin-top: 50%;
+  width: 80%;
+  align-self: center;
+}
+.login-form-container {
+  min-height: 80%;
+  height: auto;
+  width: 80%;
+}
+.banner-root {
+  height: 75vh;
+}
+.form-container {
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+}
